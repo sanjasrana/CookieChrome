@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Visualize Analyzer</title>
+    <style>
+        body {
+            width: 430px;
+            height: 500px;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-size: 18px;
+            color: red;
+        }
+
+        h2 {
+            font-size: 12px;
+            color: whitesmoke;
+            text-align: justify;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+
+        figure
+        {
+            display: none;
+        
+            /*padding: 2px;
+            height: 83px;
+            width: 68px;*/
+        }
+
+        img {
+            height: 80px;
+            width: 65px;
+        }
+        figcaption {
+            color: white;
+            padding: 0px;
+            text-align: left;
+        }
+
+        #banner ul li:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1><strong>Attention!!!</strong></h1>
+        <h2>This website selected third-parties and utilizes the following cookies from your websites for a better browsing experience. You have full control over your choices here. You can grant, modify, or revoke your consent anytime through our preferences panel. To proceed with your current selections, click 'Accept'.</h2>
+        <div id="cookie-agreement-entities"></div>
+        <script src="popupcontent.js"></script>
+    </div>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <div id="banner" style="background-color:#303234; padding:20px; border-radius:10px; height:250px;">
+        <ul style="list-style-type: none; padding: 0;">
+            <li id="location1" style="display: none; margin-bottom:15px;font-size:18px;">
+                <i class="fas fa-map-marker-alt" style="color:#FF5733;"></i>
+                <span>Your <b>location</b> is being accessed</span>
+            </li>
+            <li id="ipaddress1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-network-wired" style="color:#FFC300;"></i>
+                Your device's <b>IP address</b> is noted
+            </li>
+            <li id="personalinfo1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-user" style="color:#DAF7A6;"></i>
+                We're gathering some of your <b>personal information</b>
+            </li>
+            <li id="device1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-user" style="color:#DAF7A6;"></i>
+                Your <b>device information</b> has been taken
+            </li>
+            <li id="email1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-envelope" style="color:#C70039;"></i>
+                Your <b>email address</b> is stored
+            </li>
+            <li id="Signature1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-signature" style="color:#900C3F;"></i>
+                Your digital <b>signature</b> has been stored.
+            </li>
+            <li id="card1" style="display: none; margin-bottom: 15px; font-size: 18px;">
+                <i class="fas fa-signature" style="color:#900C3F;"></i>
+                Your digital <b>debit/credit information</b> has been recorded
+            </li>
+            <li id="interest1" style="display: none; font-size: 18px;">
+                <i class="fas fa-bolt" style="color:#FFC300;"></i>
+                Tracking your <b>activity</b>, interests, and demographic information
+            </li>
+        </ul>
+    </div>
+
+    <!--  <div id="banner" style="background-color:#303234; height:135px ; display: flex; justify-content:space-around;margin-left:20px; margin-right:20px">
+          <figure>
+              <img src="Images/location.png" />
+              <figcaption>Your Location</figcaption>
+          </figure>
+          <figure>
+              <img id="iconImage" src="icon.jpg" />
+              <figcaption>Your device type & ID</figcaption>
+          </figure>
+          <figure>
+              <img src="../Images/Userinfo.png" width="50" height="60" />
+              <figcaption >User Information</figcaption>
+          </figure>
+      </div>
+      <div id="banner" style="background-color:#303234; height:190px ; display: flex; justify-content:space-around;margin-left:20px; margin-right:20px">
+          <figure>
+              <img src="Cookie-Consent-Exemption.png" width="50" height="60" />
+              <figcaption>Your’s activity, interests, visits to sites or apps, demographic information</figcaption>
+          </figure>
+          <figure>
+              <img src="Cookie-Consent-Exemption.png" width="50" height="60" />
+              <figcaption>Your IP address &Aacute; Url</figcaption>
+          </figure>
+          <figure>
+              <img src="Cookie-Consent-Exemption.png" width="50" height="60" />
+              <figcaption>Time spent in website</figcaption>
+          </figure>
+
+
+      </div>-->
+    <div>
+        <h3 style="font-size: 12px; color: whitesmoke; text-align: justify; margin-left:5px; margin-right:5px; margin-bottom:15px;margin-top:15px;">Your Privacy is Our Priority: This extension requests access to your location, device type and ID, personal information, activity patterns (including interests and site visits), demographic details, IP address, and visited URLs. Remember, you can manage your preferences anytime.</h3>
+    </div>
+
+</body>
+</html>

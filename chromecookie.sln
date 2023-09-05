@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chromeext", "chromeext", "{10B3F60A-3B13-4ADB-91E8-27D15682339A}"
+	ProjectSection(SolutionItems) = preProject
+		background.js = background.js
+		contentscript.js = contentscript.js
+		..\..\..\Downloads\dissertation\cookieicon.jpeg = ..\..\..\Downloads\dissertation\cookieicon.jpeg
+		h.json = h.json
+		flasknlp.py = flasknlp.py
+		..\..\..\Downloads\dissertation\icon.jpg = ..\..\..\Downloads\dissertation\icon.jpg
+		lemmatizer.py = lemmatizer.py
+		manifest.json = manifest.json
+		popupcontent.css = popupcontent.css
+		popupcontent.html = popupcontent.html
+		popupcontent.js = popupcontent.js
+		proxy-server.js = proxy-server.js
+		test.py = test.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{0045768D-97EE-4EB2-A950-F10DF0E941A6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\1694.png = ..\..\..\Downloads\1694.png
+		..\..\..\Downloads\858067-200.png = ..\..\..\Downloads\858067-200.png
+		..\..\..\Downloads\dissertation\deviceid.png = ..\..\..\Downloads\dissertation\deviceid.png
+		..\..\..\Downloads\dissertation\icon.jpg = ..\..\..\Downloads\dissertation\icon.jpg
+		..\..\..\Downloads\dissertation\location.png = ..\..\..\Downloads\dissertation\location.png
+		..\..\..\Downloads\useinfo.png = ..\..\..\Downloads\useinfo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01552549-6A40-4228-B91F-464D9F639A1F}"
+	ProjectSection(SolutionItems) = preProject
+		pyyy.py = pyyy.py
+		..\..\..\Downloads\textanalysis1.py = ..\..\..\Downloads\textanalysis1.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0045768D-97EE-4EB2-A950-F10DF0E941A6} = {10B3F60A-3B13-4ADB-91E8-27D15682339A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AA1F899-CD9E-44BF-A93D-519E5842DBCE}
+	EndGlobalSection
+EndGlobal

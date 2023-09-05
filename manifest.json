@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Insight",
+  "version": "0.0.1",
+  "description": "Analyze cookie agreements and identify data",
+  "author": "UofG",
+
+  "host_permissions": [
+    "https://www.gucci.com/*",
+    "http://127.0.0.1:5000/*"
+
+  ],
+
+  "permissions": [
+    "activeTab",
+    "cookies"
+  ],
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+
+  "action": {
+    "default_popup": "popupcontent.html",
+    "default_title": "Cookie Insight Extension"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.gucci.com/*"
+      ],
+      "js": [
+        "contentscript.js"
+      ]
+    }
+  ]
+}
